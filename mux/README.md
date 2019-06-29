@@ -7,9 +7,6 @@ Muxer is the initiator/host side of the connection.  Muxer accepts socket connec
 
 In the above example TCP ports 22 and 80, along with UDP port 161 are forwarded to the demuxer target via remote.it
 
-## Build
-Build can be done with the make file in the src directory for unix, or either windows dev studio 2010 or 2017.   This project can also build with the buildall script in the root.
-
 ## muxer command format
 muxer [-h] [-v(erbose)] [-d][optinal pid file] [-f config_file][-u user_2_run_as] [-t <target demux ip:port>] <bind/listen port list> 
 
