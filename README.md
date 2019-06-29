@@ -7,7 +7,7 @@ Download the the correct version of `muxer` and `demuxer` for your platform from
 
 ## Usage
 
-Please see [Using connectd](https://docs.remote.it/connectd-reference/connectd) on our documentation site to learn how to use remote.it `connectd`.
+Please see the [Multiport Manual](https://github.com/remoteit/multiport/blob/master/docs/mux.pdf) to read how to use this software.
 
 ## Available Releases
 
