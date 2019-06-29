@@ -5,9 +5,6 @@ Demxer is the target software that accepts connections from Muxer on a single TC
 
 !["demux overview"][demux_overview]
 
-## Build
-
-Build can be done with the make file in the src directory for unix, or either windows dev studio 2010 or 2017. This project can also build with the buildall script in the root directory that builds all archtectures in available in the tools directory.
 
 ## demux command format
 demux [-h][-v(erbose)][-f config_file][-d][-p pidfile][-u user_2_run_as][-b <bindip:port>][-e <udp_expire_time>][-t <target_host>]
