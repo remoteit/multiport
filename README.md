@@ -23,8 +23,9 @@ platform. Currently here are:
 | `.arm-android_static`        | ARM                   | 32-bit       | static  |                  | ELF LSB executable, EABI5 version 1 (SYSV)                                        |
 | `.arm-gnueabi`               | ARM                   | 32-bit       | dynamic | GNU/Linux 2.6.16 | , ELF LSB executable, interpreter /lib/ld-linux.so.3, EABI5 version 1 (SYSV)      |
 | `.arm-gnueabi_static`        | ARM                   | 32-bit       | static  | GNU/Linux 2.6.16 | ELF LSB executable, EABI5 version 1 (SYSV)                                        |
-| `.arm-linaro-pi`             | ARM                   | 32-bit       | dynamic | GNU/Linux 2.6.26 | ELF LSB executable, interpreter /lib/ld-linux-armhf.so.3, EABI5 version 1 (SYSV)  |
+| `.arm-linaro-pi`             | ARM                   | 32-bit       | dynamic | interpreter /lib/ld-| ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV)  |
 | `c.arm-linaro-pi_static`      | ARM                   | 32-bit       | static  | GNU/Linux 2.6.26 | ELF LSB executable, EABI5 version 1 (SYSV)                                        |
+| `.arm-linaro-uclib`             | ARM                   | 32-bit       | dynamic | GNU/Linux 2.6.26 | EABI5 version 1 (SYSV) /lib/ld-linux-armhf.so.3, EABI5 version 1 (SYSV)  |
 | `.arm-v5t_le`                | ARM                   | 32-bit       | dynamic | GNU/Linux 2.4.17 | ELF LSB executable, interpreter /lib/ld-linux.so.3, EABI4 version 1 (SYSV)        |
 | `.arm-v5t_le_static`         | ARM                   | 32-bit       | static  | GNU/Linux 2.4.17 | ELF LSB executable, EABI4 version 1 (SYSV)                                        |
 | `.aarm64-ubuntu16.04`        | ARM aarch64           | 64-bit       | dynamic | GNU/Linux 3.7.0  | ELF LSB executable, interpreter /lib/ld-linux-aarch64.so.1, version 1 (SYSV)      |
