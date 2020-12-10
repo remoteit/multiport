@@ -17,6 +17,8 @@ platform. Currently here are:
 | Name                                 | Platform              | Architecture | Linking | OS Version       | Notes                                                                             |
 | ------------------------------------ | --------------------- | ------------ | ------- | ---------------- | --------------------------------------------------------------------------------- |
 | `.exe`                       | Microsoft Windows     | 32-bit       |         |                  | PE32 executable (console) Intel 80386                                             |
+| `.aarch64-openwrt`           | ARM aarch64           | 64-bit       |         |                  | ELF 64-bit LSB, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-musl-aarch64.so.1                                                            |
+| `.aarch64-openwrt_static`    | ARM aarch64           | 64-bit       |         |                  | ELF 64-bit LSB, ARM aarch64, version 1 (SYSV), statically linked                                                            |
 | `.x86-osx`                   | i386                  | 32-bit       |         |                  | Mach-O i386 executable                                                            |
 | `.x86_64-osx`                | x86-64                | 64-bit       |         |                  | Mach-O 64-bit x86_64 executable                                                   |
 | `.arm-android`               | ARM                   | 32-bit       | dynamic |                  | ELF LSB executable, nterpreter /system/bin/linker, EABI5 version 1 (SYSV)         |
